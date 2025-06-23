@@ -100,19 +100,7 @@ class RNN(nn.Module):
         x = self.norm2(F.tanh(self.fc2(x)))
         x = F.tanh(self.fc(x))
         return self.fc3(x)    
-# class QNet_MLP(nn.Module):
-#     def __init__(self, config, Qnet_input_dim):
-#         super().__init__()
-#         self.fc1 = nn.Linear(Qnet_input_dim, config['rnn_hidden_dim'])
-#         self.norm1=nn.LayerNorm(config['hidden_dim'])
-#         self.fc2=nn.Linear(config['hidden_dim'],config['hidden_dim'])
-#         self.norm2=nn.LayerNorm(config['hidden_dim'])
-#         self.fc3 = nn.Linear(config['hidden_dim'], config['action_dim'])
-#         #[32, 64, 64, 128],
-#     def forward(self, inputs):
-#         x=self.norm1(F.relu(self.fc1(inputs)))
-#         x=self.norm2(F.relu(self.fc2(x)))
-#         return self.fc3(x)
+
 class Qmix(nn.Module):
     """The Q-mixing network."""
     def __init__(self,config):
@@ -132,56 +120,6 @@ class Qmix(nn.Module):
         weight = self.trans_fn(self.hyper_w1(states))
         bias = self.hyper_b1(states)
         return torch.sum(weight * qs, dim=-1, keepdim=True) + bias
-# class Q_MIX_Net(nn.Module):
-#     def __init__(self,config):
-#         super().__init__()
-#         self.N=config['N']
-#         self.global_state_dim=config['global_state_dim']
-#         self.Qmix_hidden_dim=config['Qmix_hidden_dim']
-#         self.hyper_hidden_dim=config['hyper_hidden_dim']
-#         self.batch_size=config['batch_size']
-#         self.hyper_layers_num=config['hyper_layers_num']
-#         if self.hyper_layers_num == 2:
-#             self.hyper_w1=nn.Sequential(
-#                 nn.Linear(self.global_state_dim,self.hyper_hidden_dim),
-#                 nn.ReLU(),
-#                 nn.Linear(self.hyper_hidden_dim,self.N*self.Qmix_hidden_dim)
-#             )
-#             self.hyper_w2=nn.Sequential(
-#                 nn.Linear(self.global_state_dim,self.hyper_hidden_dim),
-#                 nn.ReLU(),
-#                 nn.Linear(self.hyper_hidden_dim,self.Qmix_hidden_dim)
-#             )
-#         elif self.hyper_layers_num == 1:
-#             print("hyper_layers_num=1")
-#             self.hyper_w1 = nn.Linear(self.global_state_dim, self.N * self.Qmix_hidden_dim)
-#             self.hyper_w2 = nn.Linear(self.global_state_dim, self.Qmix_hidden_dim)
-#         self.b1=nn.Linear(self.global_state_dim,self.Qmix_hidden_dim)
-#         self.b2=nn.Sequential(
-#             nn.Linear(self.global_state_dim,self.Qmix_hidden_dim),
-#             nn.ReLU(),
-#             nn.Linear(self.Qmix_hidden_dim,1)
-#         )
-#         self.trans_fn=nn.Softplus(beta=1, threshold=20)
-#     def forward(self,Qs,global_states):
-#         """
-#         Qs=[B,episode_max,N]  global_states=[B,episode_max,global_state_dim]
-#         -> [B*episode_max,1,N]                [B*episode_max,global_state_dim]
-#                 x1=[B*episode_max,1,N]    w1=[B*episode_max,N,Qmix_hidden_dim] b1=[B*episode_max,1,Qmix_hidden_dim]
-#                 x2=w1*x1+b1=[B*episode_max,1,Qmix_hidden_dim]
-#                 w2=[B,Qmix_hidden_dim,1] b2=[B,1,1]
-#                 y=w2*x2+b2=[B,1,1]
-#         """
-#         Qs=Qs.view(-1, 1,self.N)
-#         global_states=global_states.reshape(-1,self.global_state_dim)
-#         w1=torch.abs(self.hyper_w1(global_states)).view(-1,self.N,self.Qmix_hidden_dim) 
-#         b1=self.b1(global_states).view(-1,1,self.Qmix_hidden_dim)
-#         w2=torch.abs(self.hyper_w2(global_states)).view(-1,self.Qmix_hidden_dim,1)
-#         b2=self.b2(global_states).view(-1,1,1)
-
-#         Qs_hidden=F.elu(torch.bmm(Qs,w1)+b1)
-#         y2=(torch.bmm(Qs_hidden,w2)+b2).reshape(self.batch_size,-1,1)
-#         return y2
     
 class Buffer:
     #dict(tensor))

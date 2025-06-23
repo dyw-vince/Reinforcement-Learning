@@ -43,10 +43,7 @@ class QMIX_Agents:
         if self.use_rnn:
             self.current_Q_RNN=QNet_RNN(config,self.input_dim).to(self.device)
             self.target_Q_RNN=QNet_RNN(config,self.input_dim).to(self.device)
-        # else:
-        #     self.current_Q_RNN=QNet_MLP(config,self.input_dim).to(self.device)
-        #     self.target_Q_RNN=QNet_MLP(config,self.input_dim).to(self.device)
-
+        
         self.target_Q_RNN.load_state_dict(self.current_Q_RNN.state_dict())
 
         self.current_Q_MIX=Qmix(config).to(self.device)
@@ -61,8 +58,7 @@ class QMIX_Agents:
             eps=0.00001,
             weight_decay=1e-5
         )
-        # self.optimizer=torch.optim.Adam(self.QMIX_parameters,lr=config['learning_rate'])#1e-3
-        # self.scheduler= CosineAnnealingLR(self.optimizer, T_max=self.max_train_steps, eta_min=0)
+       
     def choose_action(self, names,states_n, onehot_actions_n,epsilon):
         with torch.no_grad():
             if np.random.uniform() < epsilon:  # epsilon-greedy
