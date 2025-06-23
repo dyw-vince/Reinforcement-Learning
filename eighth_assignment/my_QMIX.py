@@ -5,7 +5,7 @@ from torch.distributions import Categorical
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data.sampler import *
 from utils import *
-# Hyperparameters
+
 
 class QMIX_Agents:
     def __init__(self,config):
