@@ -5,11 +5,11 @@
 
 小作业2：使用DQN或基于策略方法(PG)解决cartpole问题  
 
-小作业3：在 OpenAI Gym 的 CarRacing-v2 离散环境中实现DQN算法(能达到740分左右的结果)  
+小作业3：在 OpenAI Gym 的 CarRacing-v2 离散环境中实现DQN算法(能达到800分左右的结果)  
 
 小作业4：使用PG解决cartpole问题，同2  
 
-小作业5：在 OpenAI Gym 的 CarRacing-v2 连续环境中实现DDPG算法(能达到830分左右的结果)  
+小作业5：在 OpenAI Gym 的 CarRacing-v2 连续环境中实现DDPG算法(能达到880分左右的结果)  
 
 小作业6：使用基于GYM构建自定义环境“一维导航”，通过自定义环境构建A2C神经网络模型。  
 
