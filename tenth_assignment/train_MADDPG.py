@@ -1,0 +1,10 @@
+import os
+from my_maddpg import *
+import my_maddpg.runner as my_maddpg
+runner = my_maddpg.get_runner(
+    method=['maddpg', 'maddpg'],                     # 使用Maddpg方法
+    env='mpe',                        # 多智能体强化学习环境类型
+    env_id='simple_adversary_v3',        # PettingZoo中的simple_adversary环境
+    is_test=False                  # 是否为测试模式
+)
+runner.run()
