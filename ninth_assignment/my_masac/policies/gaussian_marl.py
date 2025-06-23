@@ -81,30 +81,6 @@ class Basic_ISAC_Policy(Module):
             actions_dict[key], log_action_prob[key] = act_dists.activated_rsample_and_logprob()
         return rnn_hidden_new, actions_dict, log_action_prob
 
-    # def Qpolicy(self, observation,
-    #             actions,
-    #             agent_ids = None, agent_key = None,
-    #             rnn_hidden_critic_1 = None,
-    #             rnn_hidden_critic_2 = None):
-    #     raise NotImplementedError
-
-
-    # def Qtarget(self, next_observation,
-    #             next_actions,
-    #             agent_ids = None, agent_key = None,
-    #             rnn_hidden_critic_1 = None,
-    #             rnn_hidden_critic_2 = None):
-    #     raise NotImplementedError
-
-
-    # def Qaction(self, observation,
-    #             actions,
-    #             agent_ids, agent_key = None,
-    #             rnn_hidden_critic_1 = None,
-    #             rnn_hidden_critic_2 = None):
-    #     raise NotImplementedError
-
-
     def soft_update(self, tau=0.005):
         for ep, tp in zip(self.critic_1_representation.parameters(), self.target_critic_1_representation.parameters()):
             tp.data.mul_(1 - tau)
