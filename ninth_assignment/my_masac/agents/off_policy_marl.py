@@ -187,8 +187,7 @@ class OffPolicyMARLAgents:#(MARLAgents)
             'terminals': {k: np.array([data[k] for data in terminals_dict]) for k in self.agent_keys},
             'agent_mask': {k: np.array([data['agent_mask'][k] for data in info]) for k in self.agent_keys},
         }
-        # if self.use_rnn:
-        #     experience_data['episode_steps'] = np.array([data['episode_step'] - 1 for data in info])
+        
         if self.use_global_state:
             experience_data['state'] = np.array(kwargs['state'])
             experience_data['state_next'] = np.array(kwargs['next_state'])
@@ -212,15 +211,7 @@ class OffPolicyMARLAgents:#(MARLAgents)
                                        range(batch_size)]
             else:
                 explore_actions = pi_actions_dict
-        # elif self.noise_scale is not None:
-        #     if self.use_parameter_sharing:
-        #         key = self.agent_keys[0]
-        #         pi_actions_dict[key] += np.random.normal(0, self.noise_scale, size=pi_actions_dict[key].shape)
-        #     else:
-        #         for key in self.agent_keys:
-        #             pi_actions_dict[key] += np.random.normal(0, self.noise_scale, size=pi_actions_dict[key].shape)
-        #     explore_actions = pi_actions_dict
-        # else:
+        
         explore_actions = pi_actions_dict
         return explore_actions
 
