@@ -40,17 +40,46 @@
 
 小作业7：基于PettingZoo中的simple_spread环境实现MAPPO算法(平均能达到-6~-8的收敛效果) 
 
-<p align="center">
-  <img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment7/result/gif/out4.gif?raw=true" width="200" alt="MAPPO 动画演示">
-</p>
-
-
 小作业8：基于PettingZoo中的simple_spread环境实现QMIX算法(平均能达到-14~-18的收敛效果)  
+
+<table>
+  <tr>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment7/result/gif/out4.gif?raw=true" width="300"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment8/result/gif/out2.gif?raw=true" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">7.MAPPO gif</td>
+    <td align="center">8.QMIX gif</td>
+  </tr>
+</table>
 
 小作业9：基于PettingZoo中的simple_adversary环境实现MASAC算法  
 
 小作业10：基于PettingZoo中的simple_adversary环境实现MADDPG算法
 
+<table>
+  <tr>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment9/result.gif?raw=true" width="300"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment10/result1.gif?raw=true" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">9.MASAC gif</td>
+    <td align="center">10.MADDPG gif</td>
+  </tr>
+</table>
+
 中作业1：采用MASAC算法和MADDPG算法,使用GYM环境构建一场经典的森林狩猎合作游戏（simple-tag），至少3个猎手。其中游戏展示过程分别保存在maddpg_videos和masac_videos中
+
+<table>
+  <tr>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/middle_assignment1/maddpg/maddpg_videos/test1/Videos_Test_Group_0.gif?raw=true" width="300"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/middle_assignment1/masac/masac_videos/test2/Videos_Test_Group_0.gif?raw=true" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">MADDPG gif</td>
+    <td align="center">MASAC gif</td>
+  </tr>
+</table>
+
 
 中作业2：采用RND算法，学习通关游戏蒙特祖玛的复仇(MontezumaRevenge)
