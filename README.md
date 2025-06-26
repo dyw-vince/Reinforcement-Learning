@@ -5,6 +5,10 @@
 
 小作业2：使用DQN或基于策略方法(PG)解决cartpole问题  
 
+![DQN_video](https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/DQN_video.gif)
+
+![PG_video](https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/PG_video.gif)
+
 小作业3：在 OpenAI Gym 的 CarRacing-v2 离散环境中实现DQN算法(能达到800分左右的结果)  
 
 小作业4：使用PG解决cartpole问题，同2  
