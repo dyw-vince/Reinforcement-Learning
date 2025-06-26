@@ -4,10 +4,8 @@
 小作业1：使用强化学习算法，让机器人从5×5网格世界的左上角移动到左下角，找到最优路径的同时躲避障碍  
 
 小作业2：使用DQN或基于策略方法(PG)解决cartpole问题  
+<img src="![images/demo.png](https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/DQN_video.gif)" width="300"/><img src="![images/demo.png](https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/PG_video.gif)" width="300"/>
 
-![DQN_video](https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/DQN_video.gif)
-
-![PG_video](https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/PG_video.gif)
 
 小作业3：在 OpenAI Gym 的 CarRacing-v2 离散环境中实现DQN算法(能达到800分左右的结果)  
 
