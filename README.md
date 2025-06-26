@@ -5,26 +5,36 @@
 
 小作业2：使用DQN或基于策略方法(PG)解决cartpole问题  
 
-<!-- <p align="center">
-  <img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/DQN_video.gif?raw=true" width="200" alt="DQN动画演示">
-  <img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/PG_video.gif?raw=true" width="200" alt="PG动画演示">
-</p> -->
-
 <table>
   <tr>
-    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/DQN_video.gif?raw=true" width="250"></td>
-    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/PG_video.gif?raw=true" width="350"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/DQN_video.gif?raw=true" width="300"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/PG_video.gif?raw=true" width="300"></td>
   </tr>
   <tr>
-    <td align="center">DQN gif</td>
-    <td align="center">PG gif</td>
+    <td align="center">2.DQN gif</td>
+    <td align="center">4.PG gif</td>
   </tr>
 </table>
+
+
+
 小作业3：在 OpenAI Gym 的 CarRacing-v2 离散环境中实现DQN算法(能达到800分左右的结果)  
 
 小作业4：使用PG解决cartpole问题，同2  
 
 小作业5：在 OpenAI Gym 的 CarRacing-v2 连续环境中实现DDPG算法(能达到880分左右的结果)  
+
+<table>
+  <tr>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment3/DQN_video.gif?raw=true" width="300"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment5/DDPG_video.gif?raw=true" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">3.DQN gif</td>
+    <td align="center">5.DDPG gif</td>
+  </tr>
+</table>
+
 
 小作业6：使用基于GYM构建自定义环境“一维导航”，通过自定义环境构建A2C神经网络模型。  
 
