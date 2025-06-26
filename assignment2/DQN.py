@@ -19,7 +19,7 @@ class QNetwork(nn.Module):#输入一个S值，输出一个a值,
             nn.ReLU(),
             nn.Linear(64, config['action_dim'])
         )
-        self.to(self.device)  # 将网络移到指定设备
+        self.to(self.device) 
 
     def forward(self, x):
         x=x.to(self.device)
