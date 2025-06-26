@@ -1,0 +1,8 @@
+
+End to initalize...
+Traceback (most recent call last):
+  File "train.py", line 298, in <module>
+    agent.training()
+  File "train.py", line 221, in training
+    total_int_rewards /= np.sqrt(self.reward_rms.var).reshape(1, -1)
+ValueError: operands could not be broadcast together with shapes (64,128) (1,64) (64,128)

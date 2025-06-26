@@ -1,0 +1,8 @@
+
+End to initalize...
+Traceback (most recent call last):
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch/train.py", line 263, in <module>
+    agent.training()
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch/train.py", line 158, in training
+    global_step += (self.num_worker * self.num_step)
+UnboundLocalError: local variable 'global_step' referenced before assignment
