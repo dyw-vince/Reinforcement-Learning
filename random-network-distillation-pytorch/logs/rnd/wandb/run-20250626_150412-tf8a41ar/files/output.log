@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "train.py", line 262, in <module>
+    agent=RNDAgent()
+  File "train.py", line 100, in __init__
+    work = AtariEnvironment(self.env_id, self.is_render, idx, child_conn,
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch/envs.py", line 143, in __init__
+    self.reset()
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch/envs.py", line 191, in reset
+    self.pre_proc(s))
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch/envs.py", line 195, in pre_proc
+    X = np.array(Image.fromarray(X).convert('L')).astype('float32')
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/PIL/Image.py", line 3266, in fromarray
+    arr = obj.__array_interface__
+AttributeError: 'tuple' object has no attribute '__array_interface__'

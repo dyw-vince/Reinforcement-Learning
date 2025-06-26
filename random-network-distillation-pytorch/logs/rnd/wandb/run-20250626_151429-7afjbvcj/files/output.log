@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch/train.py", line 262, in <module>
+    agent=RNDAgent()
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch/train.py", line 107, in __init__
+    self.init_obs_rms()
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch/train.py", line 146, in init_obs_rms
+    s, r, d, rd, lr = parent_conn.recv()
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
