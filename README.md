@@ -15,7 +15,7 @@
 
 小作业7：基于PettingZoo中的simple_spread环境实现MAPPO算法(平均能达到-6~-8的收敛效果) 
 
-![MAPPO]<https://github.com/dyw-vince/Reinforcement-Learning/raw/main/assignment7/result/gif/out4.gif>
+![MAPPO](https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment7/result/gif/out4.gif)
 
 小作业8：基于PettingZoo中的simple_spread环境实现QMIX算法(平均能达到-14~-18的收敛效果)  
 
