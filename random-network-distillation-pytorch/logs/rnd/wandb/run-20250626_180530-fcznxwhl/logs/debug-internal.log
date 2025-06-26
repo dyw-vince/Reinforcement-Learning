@@ -1,0 +1,75 @@
+2025-06-26 18:05:30,330 INFO    StreamThr :3899248 [internal.py:wandb_internal():86] W&B internal server running at pid: 3899248, started at: 2025-06-26 18:05:30.330147
+2025-06-26 18:05:30,332 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: status
+2025-06-26 18:05:30,339 INFO    WriterThread:3899248 [datastore.py:open_for_write():85] open: ./logs/rnd/wandb/run-20250626_180530-fcznxwhl/run-fcznxwhl.wandb
+2025-06-26 18:05:30,340 DEBUG   SenderThread:3899248 [sender.py:send():375] send: header
+2025-06-26 18:05:30,357 DEBUG   SenderThread:3899248 [sender.py:send():375] send: run
+2025-06-26 18:05:35,358 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: keepalive
+2025-06-26 18:05:40,360 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: keepalive
+2025-06-26 18:05:45,361 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: keepalive
+2025-06-26 18:05:50,362 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: keepalive
+2025-06-26 18:05:55,364 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: keepalive
+2025-06-26 18:06:00,366 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: keepalive
+2025-06-26 18:06:03,925 INFO    SenderThread:3899248 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x77f04271be80>, 'Connection to api.wandb.ai timed out. (connect timeout=10)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x77f04271be80>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 285, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/dyw/miniconda3/envs/xuance_env/lib/python3.8/site-packages/requests/adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x77f04271be80>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
+2025-06-26 18:06:05,367 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: keepalive
+2025-06-26 18:06:09,395 DEBUG   HandlerThread:3899248 [handler.py:handle_request():144] handle_request: shutdown
+2025-06-26 18:06:09,396 INFO    HandlerThread:3899248 [handler.py:finish():842] shutting down handler
+2025-06-26 18:06:10,363 INFO    WriterThread:3899248 [datastore.py:close():298] close: ./logs/rnd/wandb/run-20250626_180530-fcznxwhl/run-fcznxwhl.wandb
