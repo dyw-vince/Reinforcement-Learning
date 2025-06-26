@@ -5,6 +5,11 @@
 
 小作业2：使用DQN或基于策略方法(PG)解决cartpole问题  
 
+<p align="center">
+  <img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/DQN_video.gif?raw=true" width="200" alt="DQN动画演示">
+  <img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment2/PG_video.gif?raw=true" width="200" alt="PG动画演示">
+</p>
+
 小作业3：在 OpenAI Gym 的 CarRacing-v2 离散环境中实现DQN算法(能达到800分左右的结果)  
 
 小作业4：使用PG解决cartpole问题，同2  
@@ -18,6 +23,7 @@
 <p align="center">
   <img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment7/result/gif/out4.gif?raw=true" width="200" alt="MAPPO 动画演示">
 </p>
+
 
 小作业8：基于PettingZoo中的simple_spread环境实现QMIX算法(平均能达到-14~-18的收敛效果)  
 
