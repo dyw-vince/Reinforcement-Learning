@@ -21,6 +21,6 @@
 
 小作业10：基于PettingZoo中的simple_adversary环境实现MADDPG算法
 
-中作业1：采用MASAC算法和MADDPG算法,使用GYM环境构建一场经典的森林狩猎合作游戏（simple-tag），至少3个猎手。其中游戏展示过程分别保存在middle_assignment1/maddpg/maddpg_videos和middle_assignment1/masac/masac_videos中
+中作业1：采用MASAC算法和MADDPG算法,使用GYM环境构建一场经典的森林狩猎合作游戏（simple-tag），至少3个猎手。其中游戏展示过程分别保存在maddpg_videos和masac_videos中
 
 中作业2：采用RND算法，学习通关游戏蒙特祖玛的复仇(MontezumaRevenge)
