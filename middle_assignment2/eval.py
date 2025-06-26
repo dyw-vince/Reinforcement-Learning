@@ -1,4 +1,4 @@
-from train import *
+from agent import *
 
 if __name__ == '__main__':
     agent=RNDAgent()
