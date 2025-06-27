@@ -35,7 +35,9 @@ def choose_action(state,episode):
         return np.random.choice(range(len(actions)))
     else:
         return np.argmax(Q[state[0],state[1]])
+    
 rewards_per_episode = []
+
 for episode in range(episodes):
     state=start
     total_reward = 0
@@ -52,6 +54,15 @@ for episode in range(episodes):
         if state==end:
             break
     rewards_per_episode.append(total_reward)
+    
+# 奖励收敛曲线
+
+plt.plot(rewards_per_episode)
+plt.xlabel("Episode")
+plt.ylabel("Total Reward")
+plt.title("Training Rewards Over Episodes")
+plt.savefig("rewards_curve.png", dpi=300)  # 保存为 PNG 图像，dpi 可选
+
 def get_optimal_path():
     state = start
     path = [state]
@@ -101,13 +112,8 @@ def visualize_path(path):
     ax.text(start[1], bound_x-1-start[0], 'S', va='center', ha='center', color='black', fontsize=18)
     ax.text(end[1], bound_x-1-end[0], 'E', va='center', ha='center', color='black', fontsize=18)
     plt.title("Learned Path")
-    plt.show()
+    plt.savefig("learned_path.png", dpi=300)
 
 visualize_path(path)
 
-# 奖励收敛曲线
-plt.plot(rewards_per_episode)
-plt.xlabel("Episode")
-plt.ylabel("Total Reward")
-plt.title("Training Rewards Over Episodes")
-plt.show()
+
