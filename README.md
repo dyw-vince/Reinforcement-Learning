@@ -92,8 +92,8 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/middle_assignment1/maddpg/maddpg_videos/test1/Videos_Test_Group_0.gif?raw=true" width="300"></td>
-    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/middle_assignment1/masac/masac_videos/test2/Videos_Test_Group_0.gif?raw=true" width="300"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/middle_assignment1/results/maddpg/maddpg_gif.gif?raw=true" width="300"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/middle_assignment1/results/masac/masac_gif.gif?raw=true" width="300"></td>
   </tr>
   <tr>
     <td align="center">MADDPG gif</td>
