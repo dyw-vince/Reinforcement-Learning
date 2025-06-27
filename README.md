@@ -3,6 +3,17 @@
 
 小作业1：使用强化学习算法，让机器人从5×5网格世界的左上角移动到左下角，找到最优路径的同时躲避障碍  
 
+<table>
+  <tr>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment1/learned_path.png?raw=true" width="300"></td>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment1/rewards_curve.png?raw=true" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">Learned Path</td>
+    <td align="center">Rewards Curve</td>
+  </tr>
+</table>
+
 小作业2：使用DQN或基于策略方法(PG)解决cartpole问题  
 
 <table>
@@ -37,6 +48,15 @@
 
 
 小作业6：使用基于GYM构建自定义环境“一维导航”，通过自定义环境构建A2C神经网络模型。  
+
+<table>
+  <tr>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/assignment6/result.png?raw=true" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">Rewards Curve</td>
+  </tr>
+</table>
 
 小作业7：基于PettingZoo中的simple_spread环境实现MAPPO算法(平均能达到-6~-8的收敛效果) 
 
@@ -80,6 +100,5 @@
     <td align="center">MASAC gif</td>
   </tr>
 </table>
-
 
 中作业2：采用RND算法，学习通关游戏蒙特祖玛的复仇(MontezumaRevenge)
