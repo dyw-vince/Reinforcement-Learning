@@ -1,8 +1,6 @@
 import os
 from my_masac import *
 import my_masac.runner as my_masac
-os.environ["http_proxy"] = "http://10.52.31.35:7890"
-os.environ["https_proxy"] = "http://10.52.31.35:7890"
 runner =my_masac.get_runner(
     method=['masac','masac'],                     # 使用MASAC方法
     env='mpe',                        # 多智能体强化学习环境类型
