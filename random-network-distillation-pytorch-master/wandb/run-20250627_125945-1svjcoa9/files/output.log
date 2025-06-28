@@ -1,0 +1,197 @@
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+Start to initailize observation normalization parameter.....
+End to initalize...
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 1. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 2. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 1 that is less than the current step 3. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 3. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 4. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 4. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 5. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 2 that is less than the current step 6. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 7. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 8. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 3 that is less than the current step 8. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 9. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 10. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 4 that is less than the current step 10. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 11. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 5 that is less than the current step 12. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 12. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 13. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 14. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 6 that is less than the current step 15. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 16. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 17. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 7 that is less than the current step 17. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 18. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 8 that is less than the current step 19. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 20. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 21. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 21. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 9 that is less than the current step 22. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 23. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 24. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 24. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 10 that is less than the current step 25. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 26. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 27. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 11 that is less than the current step 27. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 28. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 29. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 29. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 30. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 12 that is less than the current step 31. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 32. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 33. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 13 that is less than the current step 33. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 34. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 35. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 14 that is less than the current step 36. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 37. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 15 that is less than the current step 38. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+Traceback (most recent call last):
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch-master/train.py", line 300, in <module>
+    main()
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch-master/train.py", line 288, in main
+    agent.train_model(np.float32(total_state) / 255., ext_target, int_target, total_action,
+  File "/home/dyw/reinforcement_learning/random-network-distillation-pytorch-master/agents.py", line 138, in train_model
+    loss.backward()
+  File "/home/dyw/miniconda3/envs/pytorch/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/home/dyw/miniconda3/envs/pytorch/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/dyw/miniconda3/envs/pytorch/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

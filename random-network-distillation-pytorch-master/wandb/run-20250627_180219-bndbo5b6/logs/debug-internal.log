@@ -1,0 +1,43 @@
+{"time":"2025-06-27T18:02:19.94602653+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/dyw/reinforcement_learning/random-network-distillation-pytorch-master/wandb/run-20250627_180219-bndbo5b6/logs/debug-core.log"}
+{"time":"2025-06-27T18:02:21.205972254+08:00","level":"INFO","msg":"created new stream","id":"bndbo5b6"}
+{"time":"2025-06-27T18:02:21.206029315+08:00","level":"INFO","msg":"stream: started","id":"bndbo5b6"}
+{"time":"2025-06-27T18:02:21.206095559+08:00","level":"INFO","msg":"sender: started","stream_id":"bndbo5b6"}
+{"time":"2025-06-27T18:02:21.206114122+08:00","level":"INFO","msg":"handler: started","stream_id":"bndbo5b6"}
+{"time":"2025-06-27T18:02:21.206071694+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bndbo5b6"}
+{"time":"2025-06-27T18:02:21.791266786+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-27T18:56:26.13979139+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T03:13:27.988185067+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": EOF"}
+{"time":"2025-06-28T03:13:29.208949094+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T03:15:41.185201938+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T03:15:46.824082648+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T03:24:27.187742012+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T03:34:38.909079663+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-28T03:59:14.848277367+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T05:14:29.644649717+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T05:16:29.64108148+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T05:17:29.649910112+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T05:25:44.655380189+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T05:32:29.678206282+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T06:16:14.650549914+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T06:21:14.719851543+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T06:29:14.736138908+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:11:29.717246525+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:12:29.654604851+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:19:29.653311986+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:24:29.703279491+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:32:29.966690218+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:37:45.711335536+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:42:29.705113996+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:43:31.028140174+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T07:56:45.004879498+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T08:00:30.655540725+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T08:02:14.666270725+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T08:06:45.032020521+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T08:10:59.670185784+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T08:34:44.80469003+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T08:40:59.650376063+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T08:44:59.710807368+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T08:48:14.548014225+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream\": EOF"}
+{"time":"2025-06-28T18:08:57.607747167+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-06-28T19:13:07.326580541+08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/2036105396-nanjing-university/RND_MontezunmaRevenge_v2/bndbo5b6/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-06-28T19:13:43.124438496+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
