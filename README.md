@@ -102,3 +102,12 @@
 </table>
 
 中作业2：采用RND算法，学习通关游戏蒙特祖玛的复仇(MontezumaRevenge)
+
+<table>
+  <tr>
+    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/random-network-distillation-pytorch-master/Motezuma_video.gif?raw=true" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">Montezuma's Revenge gif</td>
+  </tr>
+</table>
