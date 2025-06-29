@@ -116,7 +116,7 @@
 
 大作业:使用pygame库构建Flappy Bird游戏环境，模拟鸟类飞行、碰撞检测和得分机制。采用深度Q网络（DQN）算法，结合Keras深度学习框架，对游戏环境进行训练，使AI能够自主学习并优化游戏策略。我们分别实现了pytorch和tensorflow两种框架下的代码。
 
-在tensorflow框架下的小鸟最高能通过237个episode
+在tensorflow框架下的小鸟最高能获得236分
 
 <table>
   <tr>
@@ -129,7 +129,7 @@
   </tr>
 </table>
 
-在pytorch框架下的小鸟最高能通过350个episode
+在pytorch框架下的小鸟最高能获得611分
 
 <table>
   <tr>
