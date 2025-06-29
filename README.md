@@ -121,7 +121,7 @@
 <table>
   <tr>
     <td><img src=https://github.com/dyw-vince/Reinforcement-Learning/blob/main/big_assignment/tensorflow/flappy_bird.gif?raw=true" width="300"></td>
-    <td><img src=https://github.com/dyw-vince/Reinforcement-Learning/blob/main/big_assignment/tensorflow/training_curve_reward.png?raw=true" width="300"></td>
+    <td><img src=https://github.com/dyw-vince/Reinforcement-Learning/blob/main/big_assignment/tensorflow/training_curve_reward.png?raw=true" width="400"></td>
   </tr>
   <tr>
     <td align="center">tensorflow flappy_bird gif</td>
@@ -134,7 +134,7 @@
 <table>
   <tr>
     <td><img src=https://github.com/dyw-vince/Reinforcement-Learning/blob/main/big_assignment/pytorch/flappy_bird.gif?raw=true" width="300"></td>
-    <td><img src=https://github.com/dyw-vince/Reinforcement-Learning/blob/main/big_assignment/pytorch/training_curve_reward.png?raw=true" width="300"></td>
+    <td><img src=https://github.com/dyw-vince/Reinforcement-Learning/blob/main/big_assignment/pytorch/training_curve_reward.png?raw=true" width="400"></td>
   </tr>
   <tr>
     <td align="center">pytorch flappy bird gif</td>
