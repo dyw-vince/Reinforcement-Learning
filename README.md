@@ -105,7 +105,7 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/dyw-vince/Reinforcement-Learning/blob/main/random-network-distillation-pytorch-master/Motezuma_video.gif?raw=true" width="300"></td>
+    <td><img src=https://github.com/dyw-vince/Reinforcement-Learning/blob/main/middle_assignment2/results/MontezumaRevenge.gif?raw=true" width="300"></td>
   </tr>
   <tr>
     <td align="center">Montezuma's Revenge gif</td>
