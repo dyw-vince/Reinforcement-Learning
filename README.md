@@ -137,7 +137,7 @@
     <td><img src=https://github.com/dyw-vince/Reinforcement-Learning/blob/main/big_assignment/pytorch/training_curve_reward.png?raw=true" width="300"></td>
   </tr>
   <tr>
-    <td align="center">pytorch flappy_bird gif</td>
-    <td align="center">pytorch flappy_bird reward curve</td>
+    <td align="center">pytorch flappy bird gif</td>
+    <td align="center">pytorch flappy bird reward curve</td>
   </tr>
 </table>
